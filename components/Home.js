@@ -4,7 +4,7 @@ import { Divider, List, Image, Button, Comment, Header, Container, Segment} from
 
 export default () => {
   return (
-    <Container style={{'marginTop':'20px'}}>
+    <Container style={{'marginTop':'40px'}}>
       <Divider horizontal inverted>
         Home
       </Divider>
@@ -45,7 +45,7 @@ export default () => {
               <Comment.Metadata>
                 <div>3 minutes ago</div>
               </Comment.Metadata>
-              <Comment.Text>Feel free to look around and visit the sections above. If you wanna chat with me, you can use the Contact form, or shoot me an email at <a href="mailto:hey@jdleo.me">hey@jdleo.me</a> 🚀 </Comment.Text>
+              <Comment.Text>Feel free to look around and visit the sections above. If you wanna chat with me, you can use the contact page, or shoot me an email at <a href="mailto:hey@jdleo.me">hey@jdleo.me</a> 🚀 </Comment.Text>
               <Comment.Actions>
                 <Comment.Action>Reply</Comment.Action>
               </Comment.Actions>

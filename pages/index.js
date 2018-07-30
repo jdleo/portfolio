@@ -42,13 +42,13 @@ class Main extends React.Component {
           <Button inverted color='red' onClick={() => {this.setState({'currentPage':'about'})}}>
             About Me
           </Button>
-          <Button inverted color='blue'>
+          <Button inverted color='blue' onClick={() => {this.setState({'currentPage':'projects'})}}>
             Projects
           </Button>
-          <Button inverted color='yellow'>
+          <Button inverted color='yellow' onClick={() => {this.setState({'currentPage':'tech'})}}>
             Tech
           </Button>
-          <Button inverted color='green'>
+          <Button inverted color='green' onClick={() => {this.setState({'currentPage':'contact'})}}>
             Contact
           </Button>
         </Card.Group>
