@@ -1,16 +1,14 @@
 import React from 'react';
-import {Image, Button, Segment} from 'semantic-ui-react';
+import {Image, Button, Segment, Card} from 'semantic-ui-react';
 
 
 export default () => {
   return (
     <div>
-      <Image
-        src='/images/wireframe/square-image.png'
-        size='medium'
-        circular
-        style={{'marginTop': '120px'}}
-      />
+      <Card.Group centered>
+        <Image src='/images/wireframe/square-image.png' size='medium' circular />  
+      </Card.Group>
+
 
       <Button inverted>
         Home
