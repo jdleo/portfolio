@@ -11,8 +11,7 @@ export default props => {
         'background': 'linear-gradient(to right, #0f2027, #203a43, #2c5364)',
         'width': '100%',
         'width': '100vw',
-        'height': '100%',
-        'height': '100vw',
+        'height': '2000px',
         'float': 'left' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       }}>
       <Head>
