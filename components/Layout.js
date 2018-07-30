@@ -13,7 +13,8 @@ export default props => {
         'width': '100%',
         'width': '100vw',
         'height': '100%',
-        'height': '100vw' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        'height': '100vw',
+        'float': 'left' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       }}>
       <Head>
         <link

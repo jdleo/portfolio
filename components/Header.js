@@ -9,6 +9,7 @@ export default () => {
         src='/images/wireframe/square-image.png'
         size='medium'
         circular
+        style={{'marginTop': '120px'}}
       />
 
       <Button inverted>
