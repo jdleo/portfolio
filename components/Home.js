@@ -1,10 +1,13 @@
 import React from 'react';
-import { List, Image, Button, Comment, Header, Container, Segment} from 'semantic-ui-react';
+import { Divider, List, Image, Button, Comment, Header, Container, Segment} from 'semantic-ui-react';
 
 
 export default () => {
   return (
-    <Container style={{'marginTop':'100px'}}>
+    <Container style={{'marginTop':'20px'}}>
+      <Divider horizontal inverted>
+        Home
+      </Divider>
       <Segment raised>
         <Comment.Group>
           <Comment>
