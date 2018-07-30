@@ -6,7 +6,6 @@ import Head from 'next/head';
 export default props => {
   return (
     <div style={{
-        'textAlign':'center',
         'background': '#0f2027', /* fallback for old browsers */
         'background': '-webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364)', /* Chrome 10-25, Safari 5.1-6 */
         'background': 'linear-gradient(to right, #0f2027, #203a43, #2c5364)',
