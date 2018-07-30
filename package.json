@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdleo/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "John Leonardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdleo/portfolio/issues"
+  },
+  "homepage": "https://github.com/jdleo/portfolio#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.1"
+  }
+}
