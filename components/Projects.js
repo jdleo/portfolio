@@ -1,12 +1,12 @@
 import React from 'react';
-import {Container, Divider}
+import {Container, Divider} from 'semantic-ui-react';
 
 
 export default () => {
   return (
     <Container style={{'marginTop':'40px'}}>
       <Divider horizontal inverted>
-        Home
+        Projects
       </Divider>
     </Container>
   );

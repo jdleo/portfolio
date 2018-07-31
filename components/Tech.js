@@ -1,10 +1,13 @@
 import React from 'react';
+import {Container, Divider} from 'semantic-ui-react';
 
 
 export default () => {
   return (
-    <div>
-      about
-    </div>
+    <Container style={{'marginTop':'40px'}}>
+      <Divider horizontal inverted>
+        Tech
+      </Divider>
+    </Container>
   );
 };
