@@ -9,7 +9,7 @@ export default () => {
         Tech
       </Divider>
 
-      <Segment raised>
+      <Segment raised textAlign='center'>
         <Header as='h3' textAlign='center'>
           Languages
         </Header>
@@ -28,7 +28,7 @@ export default () => {
         </Card.Group>
       </Segment>
 
-      <Segment raised>
+      <Segment raised textAlign='center'>
         <Header as='h3' textAlign='center'>
           Frameworks / Libraries
         </Header>
@@ -48,7 +48,7 @@ export default () => {
         </Card.Group>
       </Segment>
 
-      <Segment raised>
+      <Segment raised textAlign='center'>
         <Header as='h3' textAlign='center'>
           Cloud / Devops
         </Header>
@@ -66,7 +66,7 @@ export default () => {
         </Card.Group>
       </Segment>
 
-      <Segment raised>
+      <Segment raised textAlign='center'>
         <Header as='h3' textAlign='center'>
           Editors
         </Header>
