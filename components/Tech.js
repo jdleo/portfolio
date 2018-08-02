@@ -62,6 +62,11 @@ export default () => {
             <Label color ='teal'>Firestore</Label>
             <Label color ='violet'>Google Cloud</Label>
             <Label color ='black'>Linux</Label>
+            <Label color ='blue'>Docker</Label>
+            <Label color ='violet'>Kubernetes</Label>
+            <Label color ='yellow'>Travis</Label>
+            <Label color ='orange'>Jenkins</Label>
+            <Label color ='black'>Github</Label>
           </Label.Group>
         </Card.Group>
       </Segment>

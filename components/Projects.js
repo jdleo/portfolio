@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Divider} from 'semantic-ui-react';
+import {Container, Divider, Segment, Feed, Icon} from 'semantic-ui-react';
 
 
 export default () => {
@@ -8,6 +8,9 @@ export default () => {
       <Divider horizontal inverted>
         Projects
       </Divider>
+      <Segment raised>
+        
+      </Segment>
     </Container>
   );
 };

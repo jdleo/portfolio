@@ -45,7 +45,7 @@ export default () => {
               <Comment.Metadata>
                 <div>3 minutes ago</div>
               </Comment.Metadata>
-              <Comment.Text>Feel free to look around and visit the sections above. If you wanna chat with me, you can use the contact page, or shoot me an email at <a href="mailto:j@jdleo.me">hey@jdleo.me</a> 🚀 </Comment.Text>
+              <Comment.Text>Feel free to look around and visit the sections above. If you wanna chat with me, you can use the contact page, or shoot me an email at <a href="mailto:j@jdleo.me">j@jdleo.me</a> 🚀 </Comment.Text>
               <Comment.Actions>
                 <Comment.Action>Reply</Comment.Action>
               </Comment.Actions>
