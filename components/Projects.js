@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Divider, Card} from 'semantic-ui-react';
+import {Container, Divider, Card, Message} from 'semantic-ui-react';
 
 const items = [
   {
@@ -75,6 +75,12 @@ export default () => {
       <Divider horizontal inverted>
         Projects
       </Divider>
+      <Card.Group centered style={{'marginTop':'20px'}}>
+        <Message
+            header='Welcome to my projects page!'
+            content='If you want to see any of the source codes, check out my Github, or ask me to see any links to projects in production! 🎉'
+        />
+      </Card.Group>
       <Card.Group centered items={shuffle(items)}/>
     </Container>
   );
