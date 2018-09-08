@@ -13,6 +13,12 @@ class Main extends React.Component {
     currentPage: 'home'
   }
 
+  //google analytics
+  componentDidMount() {
+    ReactGA.initialize('UA-125401051-1')
+    ReactGA.pageview(document.location.pathname)
+  }
+
   render () {
 
     const pages = {
