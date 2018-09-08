@@ -6,6 +6,7 @@ import Projects from '../components/Projects';
 import Tech from '../components/Tech';
 import Home from '../components/Home';
 import {Card, Segment, Button} from 'semantic-ui-react';
+import ReactGA from 'react-ga';
 
 class Main extends React.Component {
 
