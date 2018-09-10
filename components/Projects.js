@@ -46,6 +46,21 @@ const items = [
     header: 'Williams Tank Lines',
     description: 'A web front-end for a trucking company, built in React + Next + Semantic.',
     meta: 'Web app',
+  },
+  {
+    header: 'Sac.cx',
+    description: 'A lightweight link shortening service, with custom hashing algorithm and link analytics. Built with React + MDL + Firebase + Heroku',
+    meta: 'Web app',
+  },
+  {
+    header: 'Provably-Fair Dice',
+    description: 'A demo for a dice gambling site. Not real money, but a proof-of-concept for a cryptographically-secure gambling site. Built with React + Semantic + Heroku',
+    meta: 'Web app',
+  }
+  {
+    header: 'pydevrant',
+    description: 'Helped work on an unofficial Python wrapper for the popular website Devrant\'s API.',
+    meta: 'Python SDK',
   }
 ]
 
