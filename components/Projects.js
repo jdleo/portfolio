@@ -59,7 +59,7 @@ const items = [
   }
   {
     header: 'pydevrant',
-    description: 'Helped work on an unofficial Python wrapper for the popular website Devrant\'s API.',
+    description: "Helped work on an unofficial Python wrapper for the popular website Devrant's API.",
     meta: 'Python SDK',
   }
 ]
