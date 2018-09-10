@@ -56,10 +56,10 @@ const items = [
     header: 'Provably-Fair Dice',
     description: 'A demo for a dice gambling site. Not real money, but a proof-of-concept for a cryptographically-secure gambling site. Built with React + Semantic + Heroku',
     meta: 'Web app',
-  }
+  },
   {
     header: 'pydevrant',
-    description: "Helped work on an unofficial Python wrapper for the popular website, Devrant.",
+    description: 'Helped work on an unofficial Python wrapper for the popular website, Devrant.',
     meta: 'Python SDK',
   }
 ]
