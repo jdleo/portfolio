@@ -40,7 +40,7 @@ const items = [
   },
   {
     header: 'Blockfunding',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/blockfunding_demo.png',
     description: 'An open-source, decentralized crowdfunding platform built on Ethereum smart contracts (solidity). Frontend is done in React + Next + Semantic.',
     meta: 'Blockchain',
   },
