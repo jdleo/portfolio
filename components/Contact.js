@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Divider, Button, Form, Segment, TextArea} from 'semantic-ui-react';
+import ReactGA from 'react-ga';
 
 class Contact extends React.Component {
 
@@ -18,34 +19,11 @@ class Contact extends React.Component {
    onSubmit = (e) => {
        e.preventDefault();
 
-       var http = require("http");
-
-        var options = {
-          hostname: 'https://api.mailjet.com',
-          port: 80,
-          path: '/v3/send',
-          method: 'POST',
-          auth: '68c3c366255c769c4ca3ecfc952d41c1:ec763208675bb6ee27f57d1ab777f203',
-          headers: {
-              'Content-Type': 'application/json',
-          }
-        };
-        var req = http.request(options, function(res) {
-          console.log('Status: ' + res.statusCode);
-          console.log('Headers: ' + JSON.stringify(res.headers));
-          res.setEncoding('utf8');
-          res.on('data', function (body) {
-            console.log('Body: ' + body);
-          });
-        });
-        req.on('error', function(e) {
-          console.log('problem with request: ' + e.message);
-        });
-        // write data to request body
-        req.write(
-          `{"FromEmail": "pilot@mailjet.com", "FromName":"Mailjet Pilot", "Subject":"${this.state.subject}", "Text-part":"${this.state.body}", Recipients: [{"Email":"yo@jdleo.me"}]}`
-        );
-        req.end();
+       ReactGA.event({
+        category: 'User',
+        action: 'Submitted Contact Form',
+        value: `Email: ${this.state.email} | Subject: ${this.state.subject} | Body: ${this.state.body}`
+      });
 
        this.setState({
             email: '',
