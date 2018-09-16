@@ -4,7 +4,7 @@ import {Container, Divider, Card, Message} from 'semantic-ui-react';
 const items = [
   {
     header: 'FakeTime',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/faketime_demo.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/faketime_demo.jpg',
     description: 'A prank/entertainment app that allows users to fake FaceTime calls. No external libraries used besides Admob for advertising framework. Broke Top 100 US, acquired by private individual.',
     meta: 'iOS',
   },
