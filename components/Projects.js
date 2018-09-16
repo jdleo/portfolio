@@ -10,13 +10,13 @@ const items = [
   },
   {
     header: 'Ghost',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/ghost_demo.png',
     description: 'An anonymous social media app that allows users to see a local feed and allows them to upvote, downvote, and comment on posts. Uses Firestore for backend, Intercom for SaaS.',
     meta: 'iOS',
   },
   {
     header: 'Restaurant Roulette',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/rr_demo.png',
     description: 'An app that randomly picks a restaurant in your area based on the settings you provide it. Powered by Yelp API (got approval to use their branding by emailing their API team). Acquired by private individual.',
     meta: 'iOS',
   },
@@ -28,7 +28,7 @@ const items = [
   },
   {
     header: 'Drop',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/drop_demo.png',
     description: 'More of an experimental app. A geolocation-based social media app that lets you drop pictures and text posts, pinned to a location through an Augmented Reality (AR) lens. Not many downloads, but just a simple app to showcase my competency with AR+Geo frameworks. Uses ARKit for AR, Firebase for backend, Geofire for geo queries.',
     meta: 'iOS',
   },
@@ -52,25 +52,25 @@ const items = [
   },
   {
     header: 'Williams Tank Lines',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/tanklines_demo.png',
     description: 'A web front-end for a trucking company, built in React + Next + Semantic.',
     meta: 'Web app',
   },
   {
     header: 'Sac.cx',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/saccx_demo.png',
     description: 'A lightweight link shortening service, with custom hashing algorithm and link analytics. Built with React + MDL + Firebase + Heroku',
     meta: 'Web app',
   },
   {
     header: 'Provably-Fair Dice',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/dice_demo.png',
     description: 'A demo for a dice gambling site. Not real money, but a proof-of-concept for a cryptographically-secure gambling site. Built with React + Semantic + Heroku',
     meta: 'Web app',
   },
   {
     header: 'pydevrant',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/pydevrant_demo.png',
     description: 'Helped work on an unofficial Python wrapper for the popular website, Devrant.',
     meta: 'Python SDK',
   }
