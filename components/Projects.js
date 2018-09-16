@@ -4,7 +4,7 @@ import {Container, Divider, Card, Message} from 'semantic-ui-react';
 const items = [
   {
     header: 'FakeTime',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/faketime_demo.JPG',
     description: 'A prank/entertainment app that allows users to fake FaceTime calls. No external libraries used besides Admob for advertising framework. Broke Top 100 US, acquired by private individual.',
     meta: 'iOS',
   },
@@ -22,7 +22,7 @@ const items = [
   },
   {
     header: 'Spyglass',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/spyglass_demo.png',
     description: 'A social media app that lets you see users in your area (CoreLocationKit). Uses Firebase for backend, Google Cloud for push notifications. Peaked at #72 US, and #28 UK. 35,000+ users.',
     meta: 'iOS',
   },
@@ -34,7 +34,7 @@ const items = [
   },
   {
     header: 'Garlicoin',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/garlicoin_demo.png',
     description: 'A PoW cryptocurrency forked from Litecoin with a mission to introduce users to cryptocurrency in a friendly/memey way. Over 100k users and at one time, peaked at a $3,000,000 market cap (traded on three medium-sized exchanges). I was a core developer who built front-end apps including a paper wallet generator, a web-based wallet, and even deployed an algorithm to combat ASICs from mining on the network.',
     meta: 'Blockchain',
   },
@@ -46,7 +46,7 @@ const items = [
   },
   {
     header: 'Sagi',
-    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/me.JPG',
+    image: 'https://raw.githubusercontent.com/jdleo/portfolio/master/assets/sagi_demo.png',
     description: 'A Chrome add-on built in React that uses deep text analysis (a form of LSI) to determine if an ICO page is a scam or not. Work in progress, and not accurate at all.',
     meta: 'Chrome Add-on',
   },
