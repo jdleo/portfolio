@@ -42,6 +42,9 @@ class Main extends React.Component {
 
     return (
       <Layout>
+        <head>
+          <link rel="icon" href="/static/favicon.ico"></link>
+        </head>
         <Card.Group centered style={{'marginTop':'40px'}}>
           <Button inverted onClick={() => {
               ReactGA.event({
